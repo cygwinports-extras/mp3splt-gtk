@@ -1,0 +1,5 @@
+DESCRIPTION="MP3/Ogg file splitter"
+HOMEPAGE="http://mp3splt.sourceforge.net/"
+SRC_URI="mirror://sourceforge/mp3splt/${P}.tar.gz"
+
+CYGCONF_ARGS="--disable-audacious --disable-doxygen_doc --enable-gtk3"
