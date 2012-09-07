@@ -1,9 +1,0 @@
-category: Audio
-requires: gstreamer0.10-plugins-base gstreamer0.10-plugins-mad gstreamer0.10-plugins-vorbis gstreamer0.10-plugins-oss libcairo2 libgdk_pixbuf2.0_0 libglib2.0_0 libgstreamer0.10_0 libgtk3_0 libintl8 libmp3splt0
-sdesc: "GTK+ MP3/Ogg file splitter"
-ldesc: "Mp3splt-project is a utility to split mp3 and ogg files 
-selecting a begin and an end time position, without decoding. It's very 
-useful to split large mp3/ogg to make smaller files or to split entire 
-albums to obtain original tracks. If you want to split an album, you can 
-select split points and filenames manually or you can get them 
-automatically from CDDB (internet or a local file) or from .cue files."
