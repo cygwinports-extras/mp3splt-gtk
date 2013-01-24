@@ -1,5 +1,5 @@
 NAME="mp3splt-gtk"
-VERSION=0.7.3
+VERSION=0.8
 RELEASE=1
 CATEGORY="Audio"
 SUMMARY="MP3/Ogg file splitter (GTK+ GUI)"
@@ -13,7 +13,7 @@ HOMEPAGE="http://mp3splt.sourceforge.net/"
 SRC_URI="mirror://sourceforge/mp3splt/${P}.tar.gz"
 
 DISTCLEANFILES="m4/Makefile"
-DIFF_EXCLUDES="libltdl ltdl.m4"
+DIFF_EXCLUDES="libltdl argz.m4 ltdl.m4"
 
 REQUIRES="gstreamer0.10-plugins-base gstreamer0.10-plugins-good gstreamer0.10-plugins-mad gstreamer0.10-plugins-vorbis"
 
