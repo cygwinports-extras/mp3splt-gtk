@@ -1,5 +1,5 @@
 NAME="mp3splt-gtk"
-VERSION=0.8
+VERSION=0.8.1
 RELEASE=1
 CATEGORY="Audio"
 SUMMARY="MP3/Ogg file splitter (GTK+ GUI)"
