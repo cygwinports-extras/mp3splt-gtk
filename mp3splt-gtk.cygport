@@ -1,5 +1,5 @@
 NAME="mp3splt-gtk"
-VERSION=0.8.1
+VERSION=0.9
 RELEASE=1
 CATEGORY="Audio"
 SUMMARY="MP3/Ogg file splitter (GTK+ GUI)"
@@ -10,7 +10,7 @@ original tracks. If you want to split an album, you can select split points
 and filenames manually or you can get them automatically from CDDB or from
 .cue files."
 HOMEPAGE="http://mp3splt.sourceforge.net/"
-SRC_URI="mirror://sourceforge/mp3splt/${P}.tar.gz"
+SRC_URI="mirror://sourceforge/mp3splt/${NAME}-${VERSION}.tar.gz"
 
 DISTCLEANFILES="m4/Makefile"
 DIFF_EXCLUDES="libltdl argz.m4 ltdl.m4"
